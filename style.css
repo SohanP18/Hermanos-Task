@@ -56,20 +56,20 @@ html, body{
     width: 100%;
     height: 2px;
     margin: 10px 0px;
-    background-color: rgb(97, 97, 97);
+    background-color: rgba(97, 97, 97, 0.6);
 }
 
 .line1{
     height: 2px;
     margin: 10px 50px;
-    background-color: rgb(97, 97, 97);
+    background-color: rgba(97, 97, 97, 0.5);
 }
 
 .line2{
     width: 50vw;
     height: 2px;
     margin: 10px 50px;
-    background-color: rgb(97, 97, 97);
+    background-color: rgb(97, 97, 97, 0.5);
 }
 
 .line3{
@@ -82,7 +82,6 @@ html, body{
 .menu1{
     width: 100%;
     height: 70px;
-    background-color: rgb(255, 248, 219);
 }
 
 .menu2{
@@ -90,7 +89,7 @@ html, body{
     height: 60px;
     display: flex;
     padding: 20px 50px;
-    background-color: rgb(0, 110, 255);
+    background-color: rgb(49, 173, 255);
 }
 
 .menu2 a{
@@ -101,15 +100,23 @@ html, body{
 }
 
 .search{
+    width: 22vh;
+    height: 67px;
+    margin-top: -20px;
+    margin-left: 40vh;
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 20px;
-    padding: 0px 0px 0px 40vh;
+    color: #fff;
+    font-size: 18px;
+    padding: 0px 40px 0px 0vh;
+    background-color: #0084ff;
 }
 
 .search input{
-    border: none;
+    width: 10vh;
+    display: none;
 }
 
 .list{
@@ -122,7 +129,7 @@ html, body{
 .list a{
     text-decoration: none;
     gap: 30px;
-    color: rgb(0, 0, 0);
+    color: rgba(43, 40, 40, 0.5);
     margin: 0px 20px;
 }
 
@@ -133,13 +140,36 @@ html, body{
 .slider{
     width: 100%; 
     height: 45vh;
+    /* position: relative; */
 }
 
 .slider img{
     width: 100%;
     height: 45vh;
     object-fit: cover;
-    object-position: 40% 85%;
+    /* object-position: 40% 85%; */
+    object-position: center;
+}
+
+.btnenq{
+    /* position: absolute; */
+    margin: -32vh 0vh 1px 15vh;
+}
+
+.btnenq h3{
+    height: 5vh;
+    color: #fff;
+    font-size: 28px;
+}
+
+.btnenq button{
+    width: 20vh;
+    height: 5vh;
+    padding: 10px 20px;
+    color: #fff;
+    border: none;
+    font-size: 18px;
+    background-color: #0084ff;
 }
 
   .item {
@@ -205,6 +235,7 @@ html, body{
   }
 
 .cont1{
+    color: #363434;
     display: flex;
     padding: 50px 50px;
 }
@@ -220,6 +251,7 @@ html, body{
 }
 
 .cont1left p{
+    color: #363434;
     font-size: 18px;
     margin-top: 15px;
 }
@@ -237,6 +269,7 @@ html, body{
 }
 
 .cont2{
+    color: #363434;
     display: flex;
     position: relative;
     padding: 50px 50px;
@@ -253,6 +286,7 @@ html, body{
 }
 
 .cont2left p{
+    color: #363434;
     font-size: 18px;
     margin-top: 15px;
 }
@@ -264,7 +298,7 @@ html, body{
 .cont2right{
     position: absolute;
     padding: 20px;
-    right: 60px;
+    right: 80px;
 }
 
 .form{
@@ -272,57 +306,85 @@ html, body{
     width: 30rem;
     padding: 20px;
     border-radius: 20px;
-    border: 1px rgb(158, 158, 158) solid;
+    border: 1px rgba(158, 158, 158, 0.541) solid;
     background-color: rgb(255, 255, 255);
     box-shadow: 2px 2px 8px 2px rgba(0, 0, 0, 0.3);
 }
 
+.form h3{
+    margin: 5px;
+    font-size: 35px;
+    color: #0084ff;
+    font-family: 'Gilroy';
+}
+
+.form p{
+    color: #363434;
+    margin: 5px;
+    font-size: 20px;
+}
+
 .form input{
+    opacity: 0.7;
     width: 80%;
     height: 8%;
     margin: 20px;
-    padding: 10px;
+    font-size: 18px;
+    padding: 16px 15px;
 }
 
 .form textarea{
     width: 80%;
     height: 12%;
     margin: 20px;
-    padding: 10px;
+    padding: 16px 15px;
+    font-size: 18px;
+    opacity: 0.7;
 }
 
 .form button{
     width: 80%;
-    height: 12%;
+    height: 6vh;
     margin: 20px;
     padding: 10px;
+    border: none;
+    border-radius: 6px;
+    font-size: 18px;
+    color: #fff;
+    background-color: #0084ff;
 }
 
 .cont2 p{
+    color: #363434;
     padding: 5px;
 }
 
 .cont3{
     display: flex;
+    color: #363434;
     padding: 50px 50px;
 }
 
 .cont4{
+    color: #363434;
     display: flex;
     padding: 50px 50px;
 }
 
 .cont5{
+    color: #363434;
     display: flex;
     padding: 50px 50px;
 }
 
 .cont6{
+    color: #363434;
     display: flex;
     padding: 50px 50px;
 }
 
 .testimonials{
+    color: #363434;
     display: flex;
     padding: 50px 50px;
 }
@@ -526,8 +588,96 @@ html, body{
 .about .col3{
     margin: 50px 10px;
     height: 25vh;
-    width: 20vh;
+    text-align: center;
 }
+
+.social-menu {
+    display: flex;
+    justify-content: center;
+  }
+  .social-btn {
+    list-style: none;
+    width: 60px;
+    height: 60px;
+    background: #fff;
+    margin: 15px;
+    border-radius: 30%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 10px 10px -5px rgb(255,255,255,0.1);
+    transition: all 0.3s;
+    z-index: 10px;
+  }
+  .social-btn a {
+    text-decoration: none;
+    color: #fff;
+  }
+  .social-btn:hover a {
+    color: #fff;
+  }
+  .social-menu .social-btn::before {
+    content: attr(tooltip);
+    position: absolute;
+    top: 0;
+    font-size: 0.9em;
+    font-weight: bold;
+    z-index: -1;
+    opacity: 0;
+    pointer-events: auto;
+    background: #fff;
+    padding: 10px;
+    color: #000;
+    letter-spacing: 1px;
+    transition: all 0.3s ease-out;
+  }
+  .social-menu .social-btn::after {
+    content: '';
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    top: 0;
+    opacity: 0;
+    background: #fff;
+    transform: rotate(45deg);
+    left: 20%;
+    z-index: -2;
+    transition: 
+      all 0.3s ease-out;
+  }
+  .social-menu .social-btn:hover::before {
+    top: -45px;
+    opacity: 1;
+  }
+  .social-btn:hover::after {
+    top: -12px;
+    opacity: 1;
+  }
+  .facebook a {
+    color: #3b5999;
+  }
+  .facebook:hover,
+  .facebook:hover .social-btn:before,
+  .facebook:hover .social-btn:after {
+    background: #3b5999;
+  }
+  .instagram a {
+    color: #962fbf;
+  }
+  .instagram:hover,
+  .instagram:hover .social-btn:before,
+  .instagram:hover .social-btn:after {
+    background: #962fbf;
+  }
+  .pinterest a {
+    color: #c8232c;
+  }
+  .pinterest:hover,
+  .pinterest:hover .social-btn:before,
+  .pinterest:hover .social-btn:after {
+    background: #c8232c;
+  }
 
 .footer{
     width: 100%;
