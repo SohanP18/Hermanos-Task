@@ -538,12 +538,26 @@ html, body{
 
 .box{
     position: absolute;
-    width: 250px;
-    height: 130px;
+    width: 280px;
+    height: 120px;
     top: -40px;
     right: 60px;
     border-radius: 10px;
+    padding: 10px;
     background-color: aliceblue;
+}
+
+.icohead{
+    display: flex;
+}
+
+.iconn i{
+    font-size: 50px;
+}
+
+.box p{
+    color: #363434;
+    font-size: 5px;
 }
 
 .implinks {
@@ -552,23 +566,23 @@ html, body{
 }
 
 .implinks .col1{
-    width: 100px;
-    margin: 50px 50px 50px 50px;
+    width: 20vh;
+    margin: 10px 50px 50px 50px;
 }
 
 .implinks .col2{
-    width: 100px;
-    margin: 50px 50px 50px 50px;
+    width: 30vh;
+    margin: 10px 50px 50px 50px;
 }
 
 .implinks .col3{
-    width: 100px;
-    margin: 50px 50px 50px 50px;
+    width: 20vh;
+    margin: 10px 50px 50px 50px;
 }
 
 .implinks .col4{
     margin: 50px 50px 10px 50px;
-    width: 100px;
+    width: 20vh;
 }
 
 .about{
@@ -577,18 +591,36 @@ html, body{
 }
 
 .about .col1 img{
-    margin: 50px 20px;
+    margin: 40px 20px 20px 20px;
     height: 25vh;
 }
 .about .col2{
-    margin: 50px 10px;
+    margin: 10px 10px;
     width: 100vh;
-    height: 25vh;
 }
+
+.about .col2 h3{
+    font-size: 25px;
+    margin: 30px 10px;
+    width: 100vh;
+}
+
+.about .col2 p{
+    font-size: 20px;
+    margin: 10px 10px;
+    width: 100vh;
+}
+
 .about .col3{
     margin: 50px 10px;
     height: 25vh;
     text-align: center;
+}
+
+.social-menu img{
+    height: 60px;
+    width: 60px;
+    overflow: hidden;
 }
 
 .social-menu {
