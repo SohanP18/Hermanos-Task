@@ -1,10 +1,3 @@
-//locomotive Scroll
-
-// const scroll = new LocomotiveScroll({
-//     el: document.querySelector('.main'),
-//     smooth: true
-// });
-
 $(function() {
     // Owl Carousel
     var owl = $(".owl-carousel");
